@@ -47,6 +47,7 @@ void AddSC_SmartSCripts();
 void AddSC_event_npc();
 
 //TeleNPC2
+void AddSC_Mod_Tournaments();
 void AddSC_npc_teleport();
 void AddSC_CdReset();
 void AddSC_morphs_npc();
@@ -855,7 +856,7 @@ void AddSC_zangarmarsh();
 void AddSC_boss_corborus();         //StoneCore
 void AddSC_boss_slabhide();
 void AddSC_boss_ozruk();
-void AddSC_boss_azil();
+void AddSC_boss_high_priestess_azil();
 void AddSC_stonecore();
 void AddSC_instance_stonecore();
 void AddSC_zone_kezan();
@@ -1755,7 +1756,7 @@ void AddMaelstromScripts()
     AddSC_boss_corborus();       //StoneCore
     AddSC_boss_slabhide();
     AddSC_boss_ozruk();
-    AddSC_boss_azil();
+    AddSC_boss_high_priestess_azil();
     AddSC_stonecore();
     AddSC_instance_stonecore();
     AddSC_zone_kezan();
@@ -1817,6 +1818,8 @@ void AddBattlegroundScripts()
 void AddSC_Ingame_commandscript();
 void AddSC_Title_gossip_codebox();
 void AddSC_arenateamranks();
+void AddSC_npc_promo_pve();
+void AddSC_npc_reputation();
 
     
 
@@ -1841,6 +1844,7 @@ void AddCustomScripts()
     /* This is where custom scripts should be added. */
 
     // TeleNPC2
+    AddSC_Mod_Tournaments();
     AddSC_event_npc();
     AddSC_npc_teleport();
     AddSC_CdReset();
@@ -1856,6 +1860,8 @@ void AddCustomScripts()
     AddSC_npc_titles();
     AddSC_npc_other();
     AddSC_npc_info(); 
+	AddSC_npc_promo_pve();
+    AddSC_npc_reputation();
     //AddSC_Killstreak();
     //AddSC_fast_arena_start();
     AddSC_Boss_Announcer();
